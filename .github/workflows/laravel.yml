@@ -47,5 +47,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:   
     - uses: actions/checkout@v2
-    - run:  chmod +x ./.github/workflows/dev-entrypoint.sh  
-    - run: ./.github/workflows/dev-entrypoint.sh           
+    - run:  chmod +x dev-entrypoint.sh  
+    - run:  dev-entrypoint.sh           
